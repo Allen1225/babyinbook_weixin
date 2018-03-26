@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+    <title>我不怕上医院  - 信息填写</title>
+    <style type="text/css">
+    	body{
+
+ position: relative;
+ padding-left:10px;
+ padding-top:20px; 
+ font-size:20px;
+    	}
+    	
+    </style>
+    </head>
+    
+<body>
+	<form action="jsapi.php" method="GET">
+    	<p>请输入个人信息</p>
+    	<p>姓名：<input style="position:relative;top:-4px;height:25px;width:250px;" type="text" name="name" /></p>
+ 		<p>电话：<input style="position:relative;top:-4px;height:25px;width:250px;" type="text" name="phone" /></p>
+ 		<p>性别：<input name="sex" type="radio" value="male" />男  <input name="sex" type="radio" value="female" />女</p>
+ 		<p>年龄：<input style="position:relative;top:-4px;height:25px;width:80px;" type="text" name="age" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;职业：<input style="position:relative;top:-4px;height:25px;width:80px;" type="text" name="job" /></p>
+		<p>微信：<input style="position:relative;top:-4px;height:25px;width:250px;" type="text" name="wechat" /></p>
+		<p>邮箱：<input style="position:relative;top:-4px;height:25px;width:250px;" type="text" name="mail" /></p>
+		<p><div style="position:relative;display: inline;top:-80px;">留言：</div><textarea style="position:relative;width:250px;height:100px;" name="message" ></textarea></p>
+		<input type="submit"  style="position:absolute;left:30%;width:40%; height:30px; border-radius: 15px;background-color:#f7931e; border:0px #FE6714 solid; cursor: pointer;  color:black;  font-size:20px;" value="下一步" />
+<br/><br/></form>
+</body>
+</html>
